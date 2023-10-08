@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300;400&display=swap');
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 1%;
+  column-gap: normal;
+}
+
+*
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
